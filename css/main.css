@@ -260,4 +260,159 @@ textarea {
     page-break-after: avoid;
   }
 }
+a {
+  text-decoration: none;
+  color:white;
+  font: 600 14px/19px 'Lato';
+}
+.nav {
+height: 70px;
+background-color: #222951;
+position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0px;
+}
+.logo {
+  position: relative;
+  width: 150px;
+  float:left;
+}
+div.logo > a > img{
+  width: 150px;
+}
+.icon {
+  display: none;
+}
+.topnav {
+  position: relative;
+  right: 10px;
+  float: right;
+}
+.topnav a {
+  display:inline-block;
+  margin: 10px;
+  padding: 16px;
+  font: 600 16px/19px 'san-serif';
+  background-color: #222951;
+  color: #DAE1E7;
+  letter-spacing: 0.05em;
+}
+a.active {
+  background-color: #222969;
+  opacity:0.9;
+}
+@media screen and (max-width: 640px){
+.topnav {
+  float: none;
+  margin-top: 70px;
+}
+.topnav a {
+ display: none;
+}
+.icon {
+  display: block;
+  float:right;
+} 
+.topnav.responsive a {
+  display:block;
+  text-align: left;
+  width: 98%;
+  margin: 0;
+  background-color: #222959;
+}
 
+} 
+main {
+width: 80%;
+float:right;
+margin-top: 70px;
+}  
+.wrapper {
+  padding-left: 10px;
+}
+@media screen and (max-width: 640px) {
+main {
+  width: 100%;
+  float:none;
+  clear:both;
+  margin-top: 70px;
+}
+}
+aside{
+background-color: #222951;
+color:wheat;
+width: 20%;
+float:left;
+margin-top: 70px;
+min-height: 500px;
+}
+@media screen and (max-width: 640px){
+aside{
+  width: 100%;
+  float:none;
+  clear:both;
+  margin-top:10px;
+  min-height:100px;
+}
+}
+
+aside a {
+text-decoration: none;
+text-align: center;
+color:white;
+
+} 
+footer {
+margin-top: 2px;
+width: 100%;
+clear: both;
+float:none;
+background-color: #222951;
+min-height: 100px;
+}
+footer ul {
+margin: 10px 0;
+padding:0;
+
+float: right;
+}
+footer ul li {
+list-style: none;
+  overflow: hidden;
+  vertical-align: top;
+  display: inline-block;
+}
+footer ul li a {
+  padding: 16px;
+  letter-spacing: 0.06em;
+}
+@media screen and (max-width: 649px) {
+footer ul {
+  float: none;
+  clear:both;
+  margin: 0 auto;
+}
+footer ul li {
+  display: block;
+  text-align: center;
+}
+
+footer ul li a {
+  margin: 10px;
+}
+}
+
+.cp {
+  color: white;
+  font: 300 12px/15px 'san-serif';
+  text-align: center;
+  
+}
+@media only screen and (min-width: 768px) {
+  .cp {
+        position: relative;
+        top: 80px;
+  }
+}

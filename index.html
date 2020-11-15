@@ -30,144 +30,7 @@ function hamburger(){
   activeclass.className = "topnav";
 }
 </script>
-<style>
-  a {
-    text-decoration: none;
-    color:white;
-    font: 600 14px/19px 'Lato';
-  }
-.nav {
-  height: 69px;
-  background-color: #222951;
-  position: absolute;
-    width: 100%;
-    top: 0;
-    right: 0;
-    left: 0px;
-}
-.logo {
-  position: relative;
-  width: 150px;
-  float:left;
-}
-div.logo > a > img{
-  width: 150px;
-}
-.icon {
-  display: none;
-}
-.topnav {
-  position: relative;
-  right: 10px;
-  float: right;
-}
-.topnav a {
-  display:inline-block;
-  margin: 10px;
-  padding: 10px;
-  background-color: #222951;
-  color: white;
-}
-a.active {
-  background-color: #222969;
-  opacity:0.5;
-}
-@media screen and (max-width: 640px){
-  .topnav {
-    float: none;
-    margin-top: 100px;
-  }
- .topnav a {
-   display: none;
- }
-  .icon {
-    display: block;
-    float:right;
-  } 
-  .topnav.responsive a {
-    display:block;
-    text-align: left;
-    width: 98%;
-    margin: 0;
-    background-color: #222959;
-  }
 
-} 
-main {
-  width: 70%;
-  float:right;
-  margin-top: 100px;
-}  
-@media screen and (max-width: 640px) {
-  main {
-    width: 100%;
-    float:none;
-    clear:both;
-    margin-top: 100px;
-  }
-}
-aside{
-  background-color: #222951;
-  color:wheat;
-  width: 30%;
-  float:left;
-  margin-top: 70px;
-  min-height: 500px;
-}
-  @media screen and (max-width: 640px){
- aside{
-    width: 100%;
-    float:none;
-    clear:both;
-    margin-top:10px;
-    min-height:100px;
-  }
-  }
-
-aside a {
-  text-decoration: none;
-  text-align: center;
-  color:white;
-  
-} 
-footer {
-  margin-top: 2px;
-  width: 100%;
-  clear: both;
-  float:none;
-  background-color: #222951;
-  min-height: 200px;
-}
-footer ul {
-  margin: 0;
-  padding:0;
-  
-  float: right;
-}
-footer ul li {
-  list-style: none;
-    overflow: hidden;
-    vertical-align: top;
-    display: inline-block;
-    
-
-
-}
-@media screen and (max-width: 649px) {
-  footer ul {
-    float: none;
-    clear:both;
-    margin: 0 auto;
-  }
-  footer ul li {
-    display: block;
-    text-align: center;
-  }
-}
-footer ul li a {
-  margin: 10px;
-}
-</style>
 </head>
 
 
@@ -191,10 +54,14 @@ footer ul li a {
     </div>
   </section>
   <main>
+    <div class="wrapper">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad exercitationem impedit tenetur, numquam quibusdam illum, facilis non officiis, necessitatibus placeat corporis sint qui error facere! Autem sint rerum eveniet.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad exercitationem impedit tenetur, numquam quibusdam illum, facilis non officiis, necessitatibus placeat corporis sint qui error facere! Autem sint rerum eveniet.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad exercitationem impedit tenetur, numquam quibusdam illum, facilis non officiis, necessitatibus placeat corporis sint qui error facere! Autem sint rerum eveniet.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad exercitationem impedit tenetur, numquam quibusdam illum, facilis non officiis, necessitatibus placeat corporis sint qui error facere! Autem sint rerum eveniet.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad exercitationem impedit tenetur, numquam quibusdam illum, facilis non officiis, necessitatibus placeat corporis sint qui error facere! Autem sint rerum eveniet.</p>
+
+    </div>
+    
   </main>
   <aside>
     <h4>
@@ -218,7 +85,7 @@ footer ul li a {
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-
+        <p class="cp">&copy;Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, reprehenderit.</p>
   </footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
